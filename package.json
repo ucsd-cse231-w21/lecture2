@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/node": "^14.14.19",
     "binaryen": "^98.0.0",
     "lezer": "^0.13.1",
     "lezer-python": "^0.13.1",
@@ -19,5 +18,8 @@
     "wabt": "^1.0.20",
     "webpack": "^5.11.1",
     "webpack-cli": "^4.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23"
   }
 }

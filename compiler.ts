@@ -33,6 +33,7 @@ export function codeGenStmt(stmt : Stmt) : Array<string> {
 }
 export function compile(source : string) : string {
   const ast = parseProgram(source);
+  console.log(ast);
   const vars : Array<string> = [];
   ast.forEach((stmt) => {
     if(stmt.tag === "assign") { vars.push(stmt.name); }
